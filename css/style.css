@@ -1,0 +1,153 @@
+main{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+header{
+    width: 100%;
+    height: 650px;
+    background-color: #4A2B33;
+}
+.picture img{
+    width: 100%;
+    height: auto;
+}
+
+.picture{
+    width: 90%;
+    height: 650px;
+    margin: 20px auto;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li{
+    display: inline-block;
+    margin-right: 10px;
+ }
+
+ .menu li a{
+    text-decoration: none;
+    color: #D27487;
+     font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:100 ;
+  font-style: normal;
+ }
+
+ .social img{
+    display: inline-block;
+    margin-right: 10px;
+
+ }
+
+ .social{
+    margin-right: 20px;
+ }
+ 
+ .logo{
+    color: #D27487;
+    letter-spacing: 5px;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+
+ #about_us{
+    text-align: center;
+    padding: 245px 185px 245px 185px;
+    
+ }
+ 
+ #about_us h2{
+     font-size: 17px;
+     font-weight: bold;
+     font-family: "Azeret Mono", monospace;
+
+ }
+
+ #about_us p{
+    font-size: 32px;
+    font-family:"inter" ;
+    line-height: 45px;
+ }
+
+#schedule{
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    background-color: #AA9E54;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#schedule h3{
+    font-family:"Azeret Mono", monospace;
+ 
+}
+
+#schedule p{
+    font-family:"inter", sans-serif;
+}
+
+#gallery{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 150px 0px;
+}
+
+.gallery_img2{
+    grid-area: 1/2/3/3;
+}
+
+#gallery img{
+    width: 100%;
+    height: auto;
+}
+
+#bordo{
+    width: 100%;
+    height: 450px;
+    background-color:#4A2B33;
+    box-sizing: border-box;
+    padding: 120px;
+    color: #D27487;
+    display: flex;
+}
+
+#bordo h2, p{
+    flex-basis: 50%;
+}
+
+#bordo h2{
+    font-family:"Azeret Mono", monospace;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+footer{
+    width:100% ;
+    height: 60px;
+    display:flex ;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 300px;
+    color: gray;
+    font-family:"inter", sans-serif;
+}
+
+footer a{
+    color: gray;
+}
+
+ 
